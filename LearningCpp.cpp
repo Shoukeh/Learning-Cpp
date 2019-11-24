@@ -5,15 +5,18 @@
 
 int main()
 {
-	std::string pin;
-
-	do {
-		std::cout << "Enter your PIN: ";
-		std::cin >> pin;
-	} while (pin.length() != 4);
-
-	std::cout << "I hacked ur shit bich";
+	
 }
+
+// Archive
+/* PIN thing
+std::string pin;
+do {
+	std::cout << "Enter your PIN: ";
+	std::cin >> pin;
+} while (pin != "1234");
+
+std::cout << "Dennis is mega gay";*/
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
