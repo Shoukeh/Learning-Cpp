@@ -3,9 +3,18 @@
 
 #include <iostream>
 
+using namespace std;
+
+double timesX (double A) {
+	double ans = A * 3;
+	return ans;
+}
+
 int main()
 {
-	
+	cout << timesX(5.0) << endl;
+
+	return 0;
 }
 
 // Archive
